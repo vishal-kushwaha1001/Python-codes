@@ -1,0 +1,5 @@
+string = input("input string :")
+seq = string.split()
+seq2 = sorted(seq)
+sortString = " ".join(seq2)
+print(sortString)

@@ -1,0 +1,67 @@
+Q1 . What IS PACKAGE ?
+        Python packages are a way to organize and structure code by grouping related modules into directories.
+        A package is essentially a folder that contains an __init__.py file and one or more Python files (modules).
+        Allows modules to be easily shared and distributed across different applications.
+
+
+ Q2 .What is __init__.py?
+        __init__.py is a special Python file used inside a package.
+
+
+ Q FEATURES OF __init__ ?
+
+        __init__.py is still very commonly used because it lets you:
+
+        initialize package-level code
+        control what gets exposed
+        create convenient imports
+        make package behavior explicit
+
+
+EXAMPLE------
+
+ maths/
+│
+├── __init__.py
+├── addition.py
+└── multiplication.py
+
+
+my_project/
+│
+├── main.py
+│
+├── users/
+│   ├── __init__.py
+│   ├── login.py
+│   └── profile.py
+│
+└── payments/
+    ├── __init__.py
+    ├── payment.py
+    └── refund.py
+
+
+Q4 .What is __pycache__?
+        __pycache__ is a folder that Python automatically creates to store compiled Python files (.pyc).
+
+            add.py
+             ↓
+        Python imports add.py
+             ↓
+        Python compiles it
+             ↓
+        __pycache__/add.cpython-314.pyc
+
+
+
+
+NOTE -- when you compiled a package then Python automatically create __pycache__ folder
+
+
+| File/Folder    | Purpose                           |
+| -------------- | --------------------------------- |
+| `__init__.py`  | Helps define/initialize a package |
+| `__pycache__/` | Stores Python's compiled bytecode |
+| `.py`          | Your actual Python source code    |
+| `.pyc`         | Compiled Python bytecode          |
