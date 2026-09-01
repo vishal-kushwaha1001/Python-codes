@@ -28,3 +28,35 @@ Ans-
     ↓         ↓             ↓            ↓
    list      sets      Dictionary      Generator           
 
+ 
+             1. List  comprehension
+    ➔Basic syntax ⇒ [expression for item in iterable if condition]   # for if condition
+                    or 
+                    [expression_if_true if condition
+                         else expression_if_false for item in iterable]   # for if-else condition
+
+            Explaination------
+                    WHAT TO PUT
+                        ↓
+            [  A  if  condition  else  B  for item in iterable]
+                ↑                  ↑
+            True               False
+
+
+            2.Set Comprehension in Python
+    ➔ Set comprehension is a short way to create a set using a for loop.
+    ➔ The biggest feature of a set is that it doesn't keep duplicate values.               
+    ➔Basic syntax ⇒ {expression for item in iterable if condition}
+
+
+            3.Dictionary Comprehension in Python
+    ➔Dictionary comprehension is a short way to create a dictionary using a for loop.
+    ➔Basic syntax ⇒  {key: value for item in iterable}
+
+
+
+            4.Generator Comprehension in python
+    ➔ List comprehension  →  create everything now
+       Generator expression → create one value when needed
+    ➔ It is useful for memory save
+    ➔Basic syntax ⇒ (expression for item in iterable if condition) 
