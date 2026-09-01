@@ -1,0 +1,30 @@
+Q. What is comprehension ?
+Ans. comprehension are a concise way to create 
+    list,
+    sets,
+    dictionaries,
+    or Generators
+    in python using a single line of code 
+
+Q. Where they are used in real life ?
+Ans- Yes , They are use in -
+                    filter item,
+                    transform item
+                    create a new collection
+                    flattern nested structure
+
+
+
+Q. What purpose do they serve ?
+Ans-        cleaner code
+            Faster Execution
+
+
+Q.How many types of comprehension ?
+Ans-  
+               comprehension
+                    ↓
+    --------------------------------------
+    ↓         ↓             ↓            ↓
+   list      sets      Dictionary      Generator           
+

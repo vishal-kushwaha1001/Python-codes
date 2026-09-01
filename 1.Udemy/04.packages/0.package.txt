@@ -20,26 +20,26 @@ Q1 . What IS PACKAGE ?
 
 EXAMPLE------
 
- maths/
-│
-├── __init__.py
-├── addition.py
-└── multiplication.py
+                    maths/
+                    │
+                    ├── __init__.py
+                    ├── addition.py
+                    └── multiplication.py
 
 
-my_project/
-│
-├── main.py
-│
-├── users/
-│   ├── __init__.py
-│   ├── login.py
-│   └── profile.py
-│
-└── payments/
-    ├── __init__.py
-    ├── payment.py
-    └── refund.py
+                    my_project/
+                    │
+                    ├── main.py
+                    │
+                    ├── users/
+                    │   ├── __init__.py
+                    │   ├── login.py
+                    │   └── profile.py
+                    │
+                    └── payments/
+                    ├── __init__.py
+                    ├── payment.py
+                    └── refund.py
 
 
 Q4 .What is __pycache__?
